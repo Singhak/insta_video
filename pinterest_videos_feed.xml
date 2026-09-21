@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coloro.in Video Creations (Shorts &amp; Reels)</title>
+    <link>https://coloro.in</link>
+    <description>Satisfying kids coloring animations, toddler drawing activities, and preschool art videos.</description>
+    <language>en-us</language>
+    <atom:link href="https://raw.githubusercontent.com/Singhak/insta_video/main/pinterest_videos_feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Satisfying Coloring Magic! 🎨 Sun &amp; Cloud ✨ #Shorts #Coloring</title>
+      <link>https://coloro.in/app?category=nature</link>
+      <guid isPermaLink="false">coloro-video-2</guid>
+      <pubDate>Mon, 21 Sep 2026 04:03:24 GMT</pubDate>
+      <description><![CDATA[Satisfying Coloring Magic with Sun & Cloud! 🎨✨
+
+Can you guess what color comes next? Drop your favorite color in the comments! 👇💬
+
+🖍️ Color this sheet online or print it for FREE on Coloro!
+👉 Link in bio to color or print hundreds of free sheets: www.coloro.in
+
+Save this Reel for your next fun kids' craft session! 💖
+
+.
+.
+.
+#reels #reelsinstagram #reelsvideo #coloring #coloro #satisfying #satisfyingvideo #coloringbook #kidsactivities #toddleractivities #artforkids #parentinghacks #homeschooling #drawing #coloringpages #speedpaint #arttherapy #diykids #freebies]]></description>
+      <enclosure url="https://raw.githubusercontent.com/Singhak/insta_video/main/sun-cloud-short.mp4" type="video/mp4" length="1500000" />
+      <media:content url="https://raw.githubusercontent.com/Singhak/insta_video/main/sun-cloud-short.mp4" medium="video" type="video/mp4" duration="5" />
+      <category>nature</category>
+    </item>
+    <item>
+      <title>Satisfying Coloring Magic! 🎨 Happy Baby Panda ✨ #Shorts #Coloring</title>
+      <link>https://coloro.in/app?category=animal</link>
+      <guid isPermaLink="false">coloro-video-1</guid>
+      <pubDate>Mon, 21 Sep 2026 03:31:24 GMT</pubDate>
+      <description><![CDATA[Satisfying Coloring Magic with Happy Baby Panda! 🎨✨
+
+Can you guess what color comes next? Drop your favorite color in the comments! 👇💬
+
+🖍️ Color this sheet online or print it for FREE on Coloro!
+👉 Link in bio to color or print hundreds of free sheets: www.coloro.in
+
+Save this Reel for your next fun kids' craft session! 💖
+
+.
+.
+.
+#reels #reelsinstagram #reelsvideo #coloring #coloro #satisfying #satisfyingvideo #coloringbook #kidsactivities #toddleractivities #artforkids #parentinghacks #homeschooling #drawing #coloringpages #speedpaint #arttherapy #diykids #freebies]]></description>
+      <enclosure url="https://raw.githubusercontent.com/Singhak/insta_video/main/happy-baby-panda-short.mp4" type="video/mp4" length="1500000" />
+      <media:content url="https://raw.githubusercontent.com/Singhak/insta_video/main/happy-baby-panda-short.mp4" medium="video" type="video/mp4" duration="5" />
+      <category>animal</category>
+    </item>
+  </channel>
+</rss>
