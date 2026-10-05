@@ -803,3 +803,89 @@ Print this out for relaxing, high-contrast coloring at home or in class, or colo
 [Instagram Auto-Poster] Run started: Mon 10/05/2026 10:02:32.05 
 ======================================================== 
 Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎯 Ready to process 1 video(s)...
+
+===========================================================
+🎬 [Video #11] Number 2 - Two Ducks (numbers)
+===========================================================
+🔗 Video URL: https://raw.githubusercontent.com/Singhak/insta_video/main/number-2-two-ducks-short.mp4
+📝 Caption preview:
+Satisfying Coloring Magic with Number 2 - Two Ducks! 🎨✨
+
+Can you guess what color comes next? Drop your favorite color in the comments! 👇💬
+
+🖍️ Col...
+
+💬 First comment with link:
+🎨 Color Number 2 - Two Ducks online or download free printable sheet:
+👉 https://coloro.in/app?category=numbers
+(Link also in bio! ✨)
+
+
+📸 Publishing Reel to Instagram Graph API (https://graph.instagram.com/v19.0)...
+   📦 Reel container created (ID: 18114652150955902). Waiting for processing...
+   Processing Reel: attempt 1/30 (IN_PROGRESS)...   Processing Reel: attempt 2/30 (IN_PROGRESS)...   Processing Reel: attempt 3/30 (IN_PROGRESS)...   Processing Reel: attempt 4/30 (IN_PROGRESS)...   Processing Reel: attempt 5/30 (IN_PROGRESS)...   Processing Reel: attempt 6/30 (FINISHED)...
+🎉 Instagram Reel Published! Media ID: 18103825760016528
+
+💬 Posting first comment with link to Instagram Media (18103825760016528)...
+   ✅ First comment posted successfully! Comment ID: 17966747001175268
+   🗄️ SQLite DB record [ID: 11] updated to PUBLISHED.
+   💾 Updated D:\Hostiger_Deployment\Insta_video\videos_metadata.csv with Instagram Media ID: 18103825760016528
+
+📦 Committing updated CSV & database to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in videos_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 video(s) published.
+Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #7] Whiskers The Kitten (animal)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-122-whiskers-the-kitten.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Whiskers The Kitten! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with digita...
+
+💬 First comment with link:
+🎨 Color Whiskers The Kitten online or download free printable sheet:
+👉 https://coloro.in/app?category=animals
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18114652477955902).
+❌ Instagram Photo Publish Error: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"AzqD7YFf2pAIYZgMFL5_cFb"}}
+❌ Error publishing image #7: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"AzqD7YFf2pAIYZgMFL5_cFb"}}
+
+✨ Finished processing! 0 image(s) published.
+[Instagram Auto-Poster] Run finished: Mon 10/05/2026 10:03:58.19 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Mon 10/05/2026 15:00:02.00 
+======================================================== 
+Posting Next Reel... 
+^C======================================================== 
+[Instagram Auto-Poster] Run started: Mon 10/05/2026 21:24:09.73 
+======================================================== 
+Posting Next Reel... 
