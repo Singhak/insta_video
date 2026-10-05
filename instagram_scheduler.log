@@ -722,3 +722,84 @@ Print this out for relaxing, high-contrast coloring at home or in class, or colo
 [Instagram Auto-Poster] Run started: Sun 10/04/2026 21:24:42.67 
 ======================================================== 
 Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎯 Ready to process 1 video(s)...
+
+===========================================================
+🎬 [Video #10] Toy Car (vehicles)
+===========================================================
+🔗 Video URL: https://raw.githubusercontent.com/Singhak/insta_video/main/toy-car-short.mp4
+📝 Caption preview:
+Satisfying Coloring Magic with Toy Car! 🎨✨
+
+Can you guess what color comes next? Drop your favorite color in the comments! 👇💬
+
+🖍️ Color this sheet...
+
+💬 First comment with link:
+🎨 Color Toy Car online or download free printable sheet:
+👉 https://coloro.in/app?category=vehicles
+(Link also in bio! ✨)
+
+
+📸 Publishing Reel to Instagram Graph API (https://graph.instagram.com/v19.0)...
+   📦 Reel container created (ID: 18114536170955902). Waiting for processing...
+   Processing Reel: attempt 1/30 (FINISHED)...
+🎉 Instagram Reel Published! Media ID: 18625876720015453
+
+💬 Posting first comment with link to Instagram Media (18625876720015453)...
+   ✅ First comment posted successfully! Comment ID: 18107845985358624
+   🗄️ SQLite DB record [ID: 10] updated to PUBLISHED.
+   💾 Updated D:\Hostiger_Deployment\Insta_video\videos_metadata.csv with Instagram Media ID: 18625876720015453
+
+📦 Committing updated CSV & database to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in videos_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 video(s) published.
+Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #7] Whiskers The Kitten (animal)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-122-whiskers-the-kitten.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Whiskers The Kitten! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with digita...
+
+💬 First comment with link:
+🎨 Color Whiskers The Kitten online or download free printable sheet:
+👉 https://coloro.in/app?category=animals
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+❌ Instagram Photo Publish Error: fetch failed
+❌ Error publishing image #7: fetch failed
+
+✨ Finished processing! 0 image(s) published.
+[Instagram Auto-Poster] Run finished: Mon 10/05/2026  7:19:44.37 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Mon 10/05/2026 10:02:32.05 
+======================================================== 
+Posting Next Reel... 
