@@ -1097,3 +1097,49 @@ Can you guess what color comes next? Drop your favorite color in the comments! �
 
 ✨ Finished processing! 1 video(s) published.
 Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #7] Whiskers The Kitten (animal)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-122-whiskers-the-kitten.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Whiskers The Kitten! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with digita...
+
+💬 First comment with link:
+🎨 Color Whiskers The Kitten online or download free printable sheet:
+👉 https://coloro.in/app?category=animals
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18114917944955902).
+🎉 Instagram Photo Published! Media ID: 18095386727439983
+
+💬 Posting first comment with link to Instagram Media (18095386727439983)...
+   ✅ First comment posted successfully! Comment ID: 18118221166997841
+   💾 Updated D:\Hostiger_Deployment\Insta_video\images_metadata.csv with Instagram Media ID: 18095386727439983
+
+📦 Committing updated CSV to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in images_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 image(s) published.
+[Instagram Auto-Poster] Run finished: Tue 10/06/2026 15:08:25.55 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Tue 10/06/2026 21:32:36.51 
+======================================================== 
+Posting Next Reel... 
