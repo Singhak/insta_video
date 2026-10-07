@@ -1323,3 +1323,50 @@ Print this out for relaxing, high-contrast coloring at home or in class, or colo
 [Instagram Auto-Poster] Run started: Wed 10/07/2026 16:04:09.73 
 ======================================================== 
 Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎯 Ready to process 1 video(s)...
+
+===========================================================
+🎬 [Video #17] Pirate Treasure Chest (object)
+===========================================================
+🔗 Video URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pirate-treasure-chest-short.mp4
+📝 Caption preview:
+Satisfying Coloring Magic with Pirate Treasure Chest! 🎨✨
+
+Can you guess what color comes next? Drop your favorite color in the comments! 👇💬
+
+🖍️ Co...
+
+💬 First comment with link:
+🎨 Color Pirate Treasure Chest online or download free printable sheet:
+👉 https://coloro.in/app?category=objects
+(Link also in bio! ✨)
+
+
+📸 Publishing Reel to Instagram Graph API (https://graph.instagram.com/v19.0)...
+   📦 Reel container created (ID: 18115173013955902). Waiting for processing...
+   Processing Reel: attempt 1/30 (IN_PROGRESS)...   Processing Reel: attempt 2/30 (IN_PROGRESS)...   Processing Reel: attempt 3/30 (IN_PROGRESS)...   Processing Reel: attempt 4/30 (IN_PROGRESS)...   Processing Reel: attempt 5/30 (FINISHED)...
+🎉 Instagram Reel Published! Media ID: 17872662393638685
+
+💬 Posting first comment with link to Instagram Media (17872662393638685)...
+   ✅ First comment posted successfully! Comment ID: 17972219091144906
+   🗄️ SQLite DB record [ID: 17] updated to PUBLISHED.
+   💾 Updated D:\Hostiger_Deployment\Insta_video\videos_metadata.csv with Instagram Media ID: 17872662393638685
+
+📦 Committing updated CSV & database to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in videos_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 video(s) published.
+======================================================== 
+[Instagram Auto-Poster] Run started: Wed 10/07/2026 21:00:02.52 
+======================================================== 
+Posting Next Reel... 
