@@ -1659,3 +1659,111 @@ Posting Next Reel...
 📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
 🎉 All videos in CSV have already been published to Instagram!
 Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #12] Triple Scoop Ice Cream Waffle Cone (festivals)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-117-triple-scoop-ice-cream-waffle-cone.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Triple Scoop Ice Cream Waffle Cone! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it onl...
+
+💬 First comment with link:
+🎨 Color Triple Scoop Ice Cream Waffle Cone online or download free printable sheet:
+👉 https://coloro.in/app?category=festivals
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18115674334955902).
+🎉 Instagram Photo Published! Media ID: 18102169862370939
+
+💬 Posting first comment with link to Instagram Media (18102169862370939)...
+   ✅ First comment posted successfully! Comment ID: 18111996872118857
+   💾 Updated D:\Hostiger_Deployment\Insta_video\images_metadata.csv with Instagram Media ID: 18102169862370939
+
+📦 Committing updated CSV to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in images_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 image(s) published.
+[Instagram Auto-Poster] Run finished: Fri 10/09/2026 21:00:55.41 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Sat 10/10/2026 10:20:54.10 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #13] Beach Sandcastle & Sun Umbrella (festivals)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-116-beach-sandcastle-sun-umbrella.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Beach Sandcastle & Sun Umbrella! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online...
+
+💬 First comment with link:
+🎨 Color Beach Sandcastle & Sun Umbrella online or download free printable sheet:
+👉 https://coloro.in/app?category=festivals
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18115801201955902).
+❌ Instagram Photo Publish Error: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"A9YBuiUZvFlJcPlkef9fGu0"}}
+❌ Error publishing image #13: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"A9YBuiUZvFlJcPlkef9fGu0"}}
+
+✨ Finished processing! 0 image(s) published.
+[Instagram Auto-Poster] Run finished: Sat 10/10/2026 10:21:31.30 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Sat 10/10/2026 20:16:26.98 
+======================================================== 
+Posting Next Reel... 
+======================================================== 
+[Instagram Auto-Poster] Run started: Sat 10/10/2026 21:00:01.76 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
