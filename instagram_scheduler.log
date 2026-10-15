@@ -2388,3 +2388,59 @@ Posting Next Reel...
 📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
 🎉 All videos in CSV have already been published to Instagram!
 Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #23] Celebration Sweets & Thali (festivals)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-106-celebration-sweets-thali.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Celebration Sweets & Thali! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with...
+
+💬 First comment with link:
+🎨 Color Celebration Sweets & Thali online or download free printable sheet:
+👉 https://coloro.in/app?category=festivals
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18116906569955902).
+🎉 Instagram Photo Published! Media ID: 18019898069733657
+
+💬 Posting first comment with link to Instagram Media (18019898069733657)...
+   ✅ First comment posted successfully! Comment ID: 18075212996737356
+   💾 Updated D:\Hostiger_Deployment\Insta_video\images_metadata.csv with Instagram Media ID: 18019898069733657
+
+📦 Committing updated CSV to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in images_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 image(s) published.
+[Instagram Auto-Poster] Run finished: Thu 10/15/2026  9:13:59.58 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Thu 10/15/2026 15:00:03.72 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
