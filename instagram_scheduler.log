@@ -2807,3 +2807,107 @@ npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
 npm notice To update run: npm install -g npm@12.2.0
 npm notice
 Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #29] Friendly Coral Dolphin (weekly)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-100-friendly-coral-dolphin.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Friendly Coral Dolphin! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with dig...
+
+💬 First comment with link:
+🎨 Color Friendly Coral Dolphin online or download free printable sheet:
+👉 https://coloro.in/app?category=weekly
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18118195000955902).
+🎉 Instagram Photo Published! Media ID: 18211812862363684
+
+💬 Posting first comment with link to Instagram Media (18211812862363684)...
+   ✅ First comment posted successfully! Comment ID: 18101410541315797
+   💾 Updated D:\Hostiger_Deployment\Insta_video\images_metadata.csv with Instagram Media ID: 18211812862363684
+
+📦 Committing updated CSV to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in images_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 image(s) published.
+[Instagram Auto-Poster] Run finished: Tue 10/20/2026 16:21:39.89 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Wed 10/21/2026 15:00:02.04 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #30] Supercharged Cyber Racer (weekly)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-099-supercharged-cyber-racer.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Supercharged Cyber Racer! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with d...
+
+💬 First comment with link:
+🎨 Color Supercharged Cyber Racer online or download free printable sheet:
+👉 https://coloro.in/app?category=weekly
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18118418965955902).
+❌ Instagram Photo Publish Error: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"AGNzpn8xbpvnTtVas3UkaFg"}}
+❌ Error publishing image #30: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"AGNzpn8xbpvnTtVas3UkaFg"}}
+
+✨ Finished processing! 0 image(s) published.
+[Instagram Auto-Poster] Run finished: Wed 10/21/2026 15:00:40.83 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Wed 10/21/2026 21:00:01.85 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
