@@ -2911,3 +2911,59 @@ Posting Next Reel...
 📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
 🎉 All videos in CSV have already been published to Instagram!
 Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #30] Supercharged Cyber Racer (weekly)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-099-supercharged-cyber-racer.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Supercharged Cyber Racer! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with d...
+
+💬 First comment with link:
+🎨 Color Supercharged Cyber Racer online or download free printable sheet:
+👉 https://coloro.in/app?category=weekly
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18118484095955902).
+🎉 Instagram Photo Published! Media ID: 18137206312640776
+
+💬 Posting first comment with link to Instagram Media (18137206312640776)...
+   ✅ First comment posted successfully! Comment ID: 18018228161747854
+   💾 Updated D:\Hostiger_Deployment\Insta_video\images_metadata.csv with Instagram Media ID: 18137206312640776
+
+📦 Committing updated CSV to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in images_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 image(s) published.
+[Instagram Auto-Poster] Run finished: Wed 10/21/2026 21:00:53.33 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Thu 10/22/2026 15:10:06.06 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
