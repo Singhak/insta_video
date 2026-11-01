@@ -4007,3 +4007,107 @@ Posting Next Reel...
 📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
 🎉 All videos in CSV have already been published to Instagram!
 Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #46] Grand Sailing Galleon (vehicles)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-083-grand-sailing-galleon.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Grand Sailing Galleon! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with digi...
+
+💬 First comment with link:
+🎨 Color Grand Sailing Galleon online or download free printable sheet:
+👉 https://coloro.in/app?category=vehicles
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18120978016955902).
+🎉 Instagram Photo Published! Media ID: 18077065232758139
+
+💬 Posting first comment with link to Instagram Media (18077065232758139)...
+   ✅ First comment posted successfully! Comment ID: 17988153141083111
+   💾 Updated D:\Hostiger_Deployment\Insta_video\images_metadata.csv with Instagram Media ID: 18077065232758139
+
+📦 Committing updated CSV to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in images_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 image(s) published.
+[Instagram Auto-Poster] Run finished: Sat 10/31/2026 15:01:00.40 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Sat 10/31/2026 21:00:02.09 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #47] Sky Rescue Helicopter (vehicles)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-082-sky-rescue-helicopter.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Sky Rescue Helicopter! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with digi...
+
+💬 First comment with link:
+🎨 Color Sky Rescue Helicopter online or download free printable sheet:
+👉 https://coloro.in/app?category=vehicles
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18121058578955902).
+❌ Instagram Photo Publish Error: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"AWJycdWFHM0cnvmoz7azc4K"}}
+❌ Error publishing image #47: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"AWJycdWFHM0cnvmoz7azc4K"}}
+
+✨ Finished processing! 0 image(s) published.
+[Instagram Auto-Poster] Run finished: Sat 10/31/2026 21:00:41.52 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Sun 11/01/2026 18:00:55.65 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
