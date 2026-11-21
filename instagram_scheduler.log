@@ -6175,3 +6175,107 @@ Posting Next Reel...
 📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
 🎉 All videos in CSV have already been published to Instagram!
 Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #78] Sweet Corn on the Cob (vegetables)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-051-sweet-corn-on-the-cob.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Sweet Corn on the Cob! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with digi...
+
+💬 First comment with link:
+🎨 Color Sweet Corn on the Cob online or download free printable sheet:
+👉 https://coloro.in/app?category=vegetables
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18125694973955902).
+🎉 Instagram Photo Published! Media ID: 18122464648777967
+
+💬 Posting first comment with link to Instagram Media (18122464648777967)...
+   ✅ First comment posted successfully! Comment ID: 18131545249633710
+   💾 Updated D:\Hostiger_Deployment\Insta_video\images_metadata.csv with Instagram Media ID: 18122464648777967
+
+📦 Committing updated CSV to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in images_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 image(s) published.
+[Instagram Auto-Poster] Run finished: Fri 11/20/2026 21:21:10.90 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Sat 11/21/2026  9:47:11.59 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #79] Juicy Tomato (vegetables)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-050-juicy-tomato.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Juicy Tomato! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online with digital magic...
+
+💬 First comment with link:
+🎨 Color Juicy Tomato online or download free printable sheet:
+👉 https://coloro.in/app?category=vegetables
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18125797678955902).
+❌ Instagram Photo Publish Error: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"AEppuhpFjU1t4gu_fqjxPBs"}}
+❌ Error publishing image #79: Failed to publish Instagram Photo: {"error":{"message":"Media ID is not available","type":"OAuthException","code":9007,"error_subcode":2207027,"is_transient":false,"error_user_title":"प्रकाशित नहीं कर सकते","error_user_msg":"मीडिया प्रकाशित किए जाने के लिए तैयार नहीं है, कृपया कुछ समय प्रतीक्षा करें","fbtrace_id":"AEppuhpFjU1t4gu_fqjxPBs"}}
+
+✨ Finished processing! 0 image(s) published.
+[Instagram Auto-Poster] Run finished: Sat 11/21/2026  9:47:50.80 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Sat 11/21/2026 15:00:02.08 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
