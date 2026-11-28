@@ -7116,3 +7116,59 @@ Posting Next Reel...
 📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
 🎉 All videos in CSV have already been published to Instagram!
 Posting Next Image... 
+
+> react-example@0.0.0 instagram:images
+> tsx scripts/post_images_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+📊 Found 128 image records in D:\Hostiger_Deployment\Insta_video\images_metadata.csv
+🎯 Ready to process 1 image(s)...
+
+===========================================================
+🖼️  [Image #93] Number 10 - Ten Rainbow Drops (numbers)
+===========================================================
+🔗 Image URL: https://raw.githubusercontent.com/Singhak/insta_video/main/pin-036-number-10-ten-rainbow-drops.png
+📝 Caption preview:
+Free Printable Coloring Sheet: Number 10 - Ten Rainbow Drops! 🎨✨
+
+Print this out for relaxing, high-contrast coloring at home or in class, or color it online w...
+
+💬 First comment with link:
+🎨 Color Number 10 - Ten Rainbow Drops online or download free printable sheet:
+👉 https://coloro.in/app?category=numbers
+(Link also in bio! ✨)
+
+
+📸 Publishing Photo to Instagram (https://graph.instagram.com/v19.0)...
+   📦 Photo container created (ID: 18127004023955902).
+🎉 Instagram Photo Published! Media ID: 18131981017852435
+
+💬 Posting first comment with link to Instagram Media (18131981017852435)...
+   ✅ First comment posted successfully! Comment ID: 17998689279022409
+   💾 Updated D:\Hostiger_Deployment\Insta_video\images_metadata.csv with Instagram Media ID: 18131981017852435
+
+📦 Committing updated CSV to Git repository...
+📦 Committed repository changes (Update Instagram Media IDs in images_metadata.csv (1 posted))
+🚀 Pushing all updates (media, videos.db & CSVs) to GitHub (Singhak/insta_video)...
+✅ Git Push Successful!
+
+✨ Finished processing! 1 image(s) published.
+[Instagram Auto-Poster] Run finished: Fri 11/27/2026 22:10:17.92 
+ 
+======================================================== 
+[Instagram Auto-Poster] Run started: Sat 11/28/2026  9:11:40.27 
+======================================================== 
+Posting Next Reel... 
+
+> react-example@0.0.0 instagram:csv
+> tsx scripts/post_csv_to_instagram.ts --next
+
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+📊 Found 20 video records in D:\Hostiger_Deployment\Insta_video\videos_metadata.csv
+🎉 All videos in CSV have already been published to Instagram!
+Posting Next Image... 
